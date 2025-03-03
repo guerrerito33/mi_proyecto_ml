@@ -1,0 +1,5 @@
+streamlit
+tensorflow-cpu
+opencv-python
+pillow
+mysql-connector-python
