@@ -59,4 +59,5 @@ USE inferencias_db;
 # Para ver todas las predicciones almacenadas, solo escribe:
 SELECT * FROM inferencias;
 # Conclusión
-¡Eso es todo! Ahora tienes una aplicación web que puede clasificar imágenes usando IA, y todo está contenido en contenedores Docker para facilitar su ejecución. Ya sea que quieras usarlo en tu máquina local o compartirlo, ¡el proceso es fácil y rápido!
+Este proyecto crea una aplicación con Streamlit que clasifica imágenes usando un modelo de IA y guarda los resultados en MySQL. Se usa Docker Compose para manejar la app y la base de datos de forma automatizada.
+El objetivo es hacer que la clasificación de imágenes sea rápida y eficiente, permitiendo almacenar las predicciones para futuras consultas. Con esta estructura, la aplicación queda lista para escalar y mejorar según sea necesario.
